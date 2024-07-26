@@ -1,6 +1,5 @@
 ﻿require('dotenv/config');
 const path = require('path')
-const mongoose = require('mongoose')
 const { Client, Events, GatewayIntentBits, EmbedBuilder } = require('discord.js');
 
 
