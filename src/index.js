@@ -18,8 +18,6 @@ client.on('ready', (c) => {
 });
 
 
-client.login(process.env.TOKEN);
-
 client.on('messageCreate', (message) => {
     if (message.author.bot) {
         return;
